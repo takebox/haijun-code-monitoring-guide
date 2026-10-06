@@ -1,9 +1,9 @@
 apiVersion: 1
 
 providers:
-  - name: 'claude-code-dashboards'
+  - name: 'haijun-code-dashboards'
     orgId: 1
-    folder: 'Claude Code'
+    folder: 'Haijun Code'
     type: file
     disableDeletion: false
     updateIntervalSeconds: 10

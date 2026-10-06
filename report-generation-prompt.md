@@ -1,21 +1,21 @@
-# Claude Code ROI Report Generation Prompt
+# Haijun Code ROI Report Generation Prompt
 
-Use this prompt with Claude Code's Linear MCP integration to generate comprehensive productivity reports.
+Use this prompt with Haijun Code's Linear MCP integration to generate comprehensive productivity reports.
 
 ## Prerequisites
 
 Ensure Linear MCP is configured:
 ```bash
-claude mcp add linear -s user -- npx -y mcp-remote https://mcp.linear.app/sse
+haijun mcp add linear -s user -- npx -y mcp-remote https://mcp.linear.app/sse
 ```
 
 ## Report Generation Command
 
 ```bash
-claude -p "Using the Linear MCP, analyze our team's velocity for the last sprint and combine with these Claude Code metrics:
+haijun -p "Using the Linear MCP, analyze our team's velocity for the last sprint and combine with these Haijun Code metrics:
 
 {
-  \"claude_code_sessions\": 42,
+  \"haijun_code_sessions\": 42,
   \"total_cost\": 103.45,
   \"pull_requests\": 23,
   \"avg_session_duration\": \"28.5 minutes\",
@@ -47,7 +47,7 @@ Generate a comprehensive productivity report that includes:
 3. Linear issue completion metrics (use actual Linear data)
 4. Cost analysis with visualizations
 5. Actionable insights based on tool usage patterns
-6. Productivity comparison (before/after Claude Code)
+6. Productivity comparison (before/after Haijun Code)
 7. Recommendations for optimization
 
 Use Mermaid diagrams for visualizations. Reference specific Linear ticket IDs where relevant."
@@ -77,5 +77,5 @@ For weekly automated reports, create a script:
 METRICS=$(curl -s "http://localhost:9090/api/v1/query?query=..." | jq '...')
 
 # Generate report
-claude -p "Using the Linear MCP, analyze our team's velocity... $METRICS ..."
+haijun -p "Using the Linear MCP, analyze our team's velocity... $METRICS ..."
 ```
