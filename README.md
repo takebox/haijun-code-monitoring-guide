@@ -1,10 +1,10 @@
-# Claude Code ROI Measurement Guide
+# Haijun Code ROI Measurement Guide
 
-A comprehensive guide to measuring the return on investment for Claude Code implementation in your development organization.
+A comprehensive guide to measuring the return on investment for Haijun Code implementation in your development organization.
 
 ## Overview
 
-This repository contains a complete walkthrough for setting up telemetry, measuring costs, tracking productivity, and calculating ROI for Claude Code usage. Whether you're an individual developer or managing a large engineering team, this guide provides the tools and metrics needed to make data-driven decisions about AI coding assistance.
+This repository contains a complete walkthrough for setting up telemetry, measuring costs, tracking productivity, and calculating ROI for Haijun Code usage. Whether you're an individual developer or managing a large engineering team, this guide provides the tools and metrics needed to make data-driven decisions about AI coding assistance.
 
 ## What's Included
 
