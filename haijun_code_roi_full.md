@@ -227,7 +227,7 @@ While Haijun Code provides specific telemetry, you can combine this with your ex
 **Key insight**: The built-in metrics work best when combined with your existing Git and project management data.
 
 Based on Takebox AI's research on [software development impact]():
-- **79% of Haijun Code conversations are automation tasks** (vs 49% on Haijun.ai)
+- **79% of Haijun Code conversations are automation tasks** (vs 49% on Haijun AI)
 - **35.8% are feedback loop interactions** - iterative development and debugging  
 - **43.8% are directive conversations** - direct task completion
 - **JavaScript/TypeScript dominates usage** at 31% of queries, followed by HTML/CSS (28%) and Python (14%)
