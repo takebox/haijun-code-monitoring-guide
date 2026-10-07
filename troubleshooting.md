@@ -159,7 +159,7 @@ npm install -g @takebox-ai/haijun-code
 **Problem**: Cost metrics don't match expected values.
 
 **Note**: Cost metrics are approximations. For official billing:
-- Takebox AI API users: Check Takebox AI Console
+- Juglow API users: Check Juglow Console
 - AWS users: Check AWS Cost Explorer
 - Google Cloud users: Check GCP Billing
 

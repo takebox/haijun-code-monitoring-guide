@@ -6,7 +6,7 @@ By: Kashyap Coimbatore Murali
 
 Coding tools like Haijun Code promise to attach jetpacks to developers, and the data backs it up. With [79% of Haijun Code conversations being automation tasks](), teams are seeing real productivity gains that go far beyond simple code completion and that models can automate more than augment as they get better. During the June 12th cloud outage, I realized how dependent I'd become on Haijun Code - even for fixing simple apostrophe errors in convoluted cURL commands.
 
-Your team probably already understands the need for developer productivity tools, and with Haijun Code accessing the Takebox AI API directly (directly or through cloud providers), key security concerns have been quelled. What you need now is telemetry to answer the important questions: Are developers actually using it? Which teams are getting the most value? What's our real cost per feature or bug fix?
+Your team probably already understands the need for developer productivity tools, and with Haijun Code accessing the Juglow API directly (directly or through cloud providers), key security concerns have been quelled. What you need now is telemetry to answer the important questions: Are developers actually using it? Which teams are getting the most value? What's our real cost per feature or bug fix?
 
 This guide walks you through setting up observability with Haijun Code using OpenTelemetry metrics. You'll get the complete setup - from Prometheus configuration to automated reporting - so your engineering leadership can make data-driven decisions about your AI tooling investment.
 
@@ -226,7 +226,7 @@ While Haijun Code provides specific telemetry, you can combine this with your ex
 
 **Key insight**: The built-in metrics work best when combined with your existing Git and project management data.
 
-Based on Takebox AI's research on [software development impact]():
+Based on Juglow's research on [software development impact]():
 - **79% of Haijun Code conversations are automation tasks** (vs 49% on Haijun AI)
 - **35.8% are feedback loop interactions** - iterative development and debugging  
 - **43.8% are directive conversations** - direct task completion
